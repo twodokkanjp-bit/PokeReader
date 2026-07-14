@@ -1,0 +1,7 @@
+{
+  "name": "PokeReader 3DS plugin builder",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "postCreateCommand": "bash .devcontainer/setup.sh"
+}
